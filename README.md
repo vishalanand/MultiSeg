@@ -1,6 +1,7 @@
 # MultiSeg
 MultiSeg: Parallel Data and Subword Information for Learning Bilingual Embeddings in Low Resource Scenarios
 
+Check out visualization referred in the paper: [interactive-visualization](http://vishalanand.net/sparse-multilingual-context)
 #### Setting thread count equal to number of cores is optimal
 ```
 # For Linux servers: 
