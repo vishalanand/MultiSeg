@@ -1,5 +1,5 @@
 # MultiSeg
-Code for paper published in LREC venue's SLTU-CCURL:
+Code for paper published in LREC 2020's SLTU-CCURL:
 
 [MultiSeg: Parallel Data and Subword Information for Learning Bilingual Embeddings in Low Resource Scenarios](https://www.aclweb.org/anthology/2020.sltu-1.13.pdf)
 ```
