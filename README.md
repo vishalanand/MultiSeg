@@ -1,5 +1,26 @@
 # MultiSeg
-MultiSeg: Parallel Data and Subword Information for Learning Bilingual Embeddings in Low Resource Scenarios
+Code for paper published in LREC venue's SLTU-CCURL:
+
+[MultiSeg: Parallel Data and Subword Information for Learning Bilingual Embeddings in Low Resource Scenarios](https://www.aclweb.org/anthology/2020.sltu-1.13.pdf)
+```
+@inproceedings{sarioglu-kayi-etal-2020-multiseg,
+    title = "{M}ulti{S}eg: Parallel Data and Subword Information for Learning Bilingual Embeddings in Low Resource Scenarios",
+    author = "Sarioglu Kayi, Efsun  and
+      Anand, Vishal  and
+      Muresan, Smaranda",
+    booktitle = "Proceedings of the 1st Joint Workshop on Spoken Language Technologies for Under-resourced languages (SLTU) and Collaboration and Computing for Under-Resourced Languages (CCURL)",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources association",
+    url = "https://www.aclweb.org/anthology/2020.sltu-1.13",
+    pages = "97--105",
+    abstract = "Distributed word embeddings have become ubiquitous in natural language processing as they have been shown to improve performance in many semantic and syntactic tasks. Popular models for learning cross-lingual word embeddings do not consider the morphology of words. We propose an approach to learn bilingual embeddings using parallel data and subword information that is expressed in various forms, i.e. character n-grams, morphemes obtained by unsupervised morphological segmentation and byte pair encoding. We report results for three low resource morphologically rich languages (Swahili, Tagalog, and Somali) and a high resource language (German) in a simulated a low-resource scenario. Our results show that our method that leverages subword information outperforms the model without subword information, both in intrinsic and extrinsic evaluations of the learned embeddings. Specifically, analogy reasoning results show that using subwords helps capture syntactic characteristics. Semantically, word similarity results and intrinsically, word translation scores demonstrate superior performance over existing methods. Finally, qualitative analysis also shows better-quality cross-lingual embeddings particularly for morphological variants in both languages.",
+    language = "English",
+    ISBN = "979-10-95546-35-1",
+}
+```
+![Architecture](MultiSeg-Architecture.png)
 
 Check out visualization referred in the paper: [interactive-visualization](https://vishalanand.net/sparse-multilingual-context)
 #### Setting thread count equal to number of cores is optimal
